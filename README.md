@@ -1,52 +1,33 @@
-\# 🎮 Sistema de Cadastro de Jogos
+# 🎮 Sistema de Cadastro de Jogos
 
+Projeto desenvolvido em Python com o objetivo de praticar lógica de programação, manipulação de arquivos e estruturação de menus no terminal.  
+O sistema permite cadastrar jogos e seus respectivos consoles, salvando as informações em um arquivo `.txt`.
 
+## 📋 Funcionalidades
+- Cadastro de jogos e consoles
+- Listagem dos jogos cadastrados
+- Armazenamento dos dados em arquivo de texto (`games.txt`)
+- Validação das opções do menu
 
-Este é um projeto simples em Python que permite ao usuário \*\*cadastrar jogos e seus respectivos consoles\*\* (videogames), salvando as informações em um arquivo `.txt`.
+## 📁 Estrutura do Projeto
+- `game.py` — Código-fonte principal com a lógica do sistema
+- `games.txt` — Arquivo utilizado para armazenar os dados
+- `README.md` — Documentação do projeto
 
-
-
-\## 📋 Funcionalidades
-
-
-
-\- 📥 Cadastrar um novo jogo e seu console
-
-\- 📃 Listar todos os jogos cadastrados
-
-\- 💾 Salvar os dados em um arquivo de texto (`games.txt`)
-
-\- 🔐 Validação de opções do menu
-
-
-
-\## 📁 Estrutura do Projeto
-
-
-
-\- `game.py`: Código-fonte principal com toda a lógica de cadastro e listagem.
-
-\- `games.txt`: Arquivo onde os dados dos jogos são armazenados.
-
-\- `README.md`: Documentação do projeto.
-
-
-
-\## 🚀 Como executar
-
-
-
-1\. Tenha o Python instalado na máquina (Python 3.x).
-
-2\. Clone o repositório:
-
-
+## 🚀 Como executar
+1. Certifique-se de ter o Python 3 instalado
+2. Clone o repositório:
 
 ```bash
-
 git clone https://github.com/ProgramandocomValdir/sistema-cadastro-jogos.git
 
 cd sistema-cadastro-jogos
+```
+3. Execute o programa:
+```bash
+python game.py
+```
+## 🛠 Tecnologias utilizadas
 
-
+- Python
 
